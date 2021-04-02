@@ -1,0 +1,25 @@
+body {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    height: 100vh;
+    align-items: center;
+    font-family: 'impact', san-serif;
+}
+
+.button {
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: solid 1px black;
+    box-shadow: 0 0 6px grey;
+    background-color: #111;
+    color: #fff;
+}
+
+.button:hover{
+    color: #000;
+    background-color: #fff;
+    transition: background 0.3s linear;
+}
